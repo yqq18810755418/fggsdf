@@ -1,0 +1,19 @@
+.box{
+	width: 600px;
+	height: 500px;
+}
+ul>li{
+	list-style: none
+}
+.li{
+	float: left;
+	margin: 10px;
+}
+.er{
+	float: left;
+	margin: 10px;
+}
+.san{
+	float: left;
+	margin: 10px;
+}

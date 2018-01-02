@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+ <div class="box">
+ 	<ul>
+ 		<li class="li"></li>
+ 		<li class="er"></li>
+ 		<li class="san"></li>
+ 	</ul>
+ </div>
+	
+	<script type = 'text/javascript' src ='script/data_formate.js'></script>
+	<script>
+		var box = document.querySelector('.box');
+		var li = document.querySelector('.li');
+		var er = document.querySelector('.er');
+		var san = document.querySelector('.san');
+		li.append(year+'年')
+		er.append(mouth+'月')
+		san.append(day+'日')
+		
+	</script>
+</body>
+</html>
